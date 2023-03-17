@@ -11,7 +11,7 @@ font-family: 'Urbanist', sans-serif; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 19px 12px 9px rgba(255, 77, 136, 0.03), 11px 7px 8px rgba(255, 77, 136, 0.1), 5px 3px 6px rgba(255, 77, 136, 0.17), 1px 1px 3px rgba(255, 77, 136, 0.2), 0px 0px 0px rgba(255, 77, 136, 0.2);
-    
+
 }
 
 * {
@@ -24,12 +24,14 @@ font-family: 'Urbanist', sans-serif; */
     font-family: 'Urbanist';
     font-weight: 500;
 }
+
 /* //////////////////// */
 .nav-link {
     text-decoration: none;
     position: relative;
-  }
-  .nav-link::after {
+}
+
+.nav-link::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -40,11 +42,13 @@ font-family: 'Urbanist', sans-serif; */
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
-  }
-  .nav-link:hover::after {
+}
+
+.nav-link:hover::after {
     visibility: visible;
     transform: scaleX(1);
-  }
+}
+
 /* ////////////////////LANDING PAGE\\\\\\\\\\\\\\\\\\\ */
 .hero h1 {
     font-family: 'Urbanist', sans-serif;
@@ -174,9 +178,11 @@ button:hover {
 .button1:active {
     transform: translateY(-1px);
 }
-.resumee{
+
+.resumee {
     width: 165px;
 }
+
 .works p {
     font-family: Urbanist;
     font-size: 25px;
@@ -218,10 +224,12 @@ button:hover {
     height: 570px;
     width: 400px;
 }
-.no-mobile .card-text{
+
+.no-mobile .card-text {
     font-size: 22px;
     text-align: justify;
 }
+
 .card:hover {
     transform: translateY(-12px);
     transition: transform 0.5s;
@@ -392,37 +400,45 @@ footer small {
         font-size: 50px;
         padding-left: 10px;
     }
-.navbar-collapse{
-    background-color: #fe4a85;
-}
-.nav-item{
-    border-style: solid;
-    border:solid 1px white;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-}
-.nav-link{
-    padding-left: 4%;
-    color: white;
-}
-.nav-link::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    visibility: hidden;
-    transform: scaleX(0);
-  }
-  .nav-link:hover::after {
-    visibility: hidden;
-    transform: none;
-  }
-  .resumee{
-    width: 450px;
-  }
+
+    .navbar-collapse {
+        background-color: #fe4a85;
+    }
+
+    .nav-item {
+        border-style: solid;
+        border: solid 1px white;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    .nav-link {
+        padding-left: 4%;
+        color: white;
+    }
+
+    .nav-link::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        visibility: hidden;
+        transform: scaleX(0);
+    }
+
+    .nav-link:hover::after {
+        visibility: hidden;
+        transform: none;
+    }
+
+    .resumee {
+        width: 450px;
+    }
+
+    
     .hero p {
         font-size: 30px;
         padding-left: 10px;
@@ -432,10 +448,10 @@ footer small {
         position: relative;
         top: -250px;
     }
+.hero {
+    height: 480px;
+}
 
-    .hero {
-        height: 480px;
-    }
 
     .b3 {
         position: absolute;
@@ -476,17 +492,20 @@ footer small {
     }
 
     .wok-70 img {
-        height: 180px;
-        width: 204px;
         padding-top: 8px;
-        padding-right: 10px;
+        padding-right: 15px;
     }
 
     .wok-30 h6 {
         text-align: left;
         padding-left: 25px;
         line-height: 220%;
+        padding-top: 18px;
         font-weight: 500;
+    }
+
+    .mobile-only .text-center p {
+        line-height: 25px;
     }
 
     .works p {
@@ -541,6 +560,7 @@ footer small {
 
     .mobile-only .card p {
         line-height: 20px;
+        text-align: justify;
     }
 
     .mobile-only .card img {
@@ -561,7 +581,7 @@ footer small {
         position: absolute;
         bottom: 12px;
         font-family: 'Urbanist';
-        
+
     }
 
     .char {
@@ -569,11 +589,12 @@ footer small {
         top: 20px;
     }
 
-    
+
     .brands {
         margin-top: -320px;
         text-align: center;
     }
+
     .brands p {
         line-height: 20px;
     }
@@ -664,6 +685,7 @@ footer small {
         text-align: center;
         color: #FFE4E4;
     }
+
     .foot p {
         font-family: 'Urbanist';
         font-style: normal;
