@@ -206,8 +206,9 @@ button:hover {
 
 /* SECTION WISE CARDS */
 .buttons {
-    text-align: center;
-    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 15px;
 }
 
 .card-body a {
