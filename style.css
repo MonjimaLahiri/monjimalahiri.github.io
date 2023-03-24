@@ -227,8 +227,10 @@ button:hover {
 }
 
 .no-mobile .card-text {
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 400;
     text-align: justify;
+    padding-top: 10px;
 }
 
 .card:hover {
@@ -379,7 +381,15 @@ footer .wrapper {
 footer .item {
     width: 100%;
 }
-
+.bxl-behance{
+    border-radius: 50%;
+    background-color: white;
+    padding: 1%;
+position: relative;
+bottom: 5px;
+    font-size: 20px;
+    color: #ff0054;
+}
 footer i {
     color: white;
     font-size: 35px;
