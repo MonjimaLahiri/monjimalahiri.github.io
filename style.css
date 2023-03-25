@@ -377,7 +377,22 @@ footer .wrapper {
     gap: 0;
     align-items: center;
 }
-
+.b1,.b2,.b3,.b4 {
+    animation: float 4s infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
 footer .item {
     width: 100%;
 }
