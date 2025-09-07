@@ -37,3 +37,20 @@ a:hover{text-decoration:underline}
   .site-nav.open{display:flex}
   .nav-toggle{display:inline-block;background:var(--card);color:var(--text);border:1px solid var(--line);padding:8px 10px;border-radius:12px}
 }
+
+/* ===== Site tokens (light/cream) ===== */
+:root{
+  --bg:#fff7ef;          /* cream */
+  --text:#222;
+  --muted:#6a6a6a;
+  --line:#efe8e0;
+  --card:#ffffff;
+  --brand:#ff2d8a;       /* hot pink accent */
+  --brand-2:#ff6aa8;
+  --radius:16px;
+  --max:1100px;
+  --font:'Urbanist', ui-sans-serif, system-ui, Segoe UI, Roboto, Arial;
+  --hand:'Waiting for the Sunrise', cursive;
+}
+html,body{background:var(--bg);color:var(--text);font-family:var(--font)}
+
