@@ -107,5 +107,5 @@ img{max-width:100%; display:block}
 
 .badge--behance{ right: calc(1% + 43px); }          /* 1) Behance ~5px left  */
 .badge--resume { bottom: calc(-8% + 35px); }        /* 2) Resume icon 3px up */
-.scribble--resume{ bottom: calc(-20% + 30px); }     /* 3) “Resume” label 8px up */
+.scribble--resume{ bottom: calc(-20% + 50px); }     /* 3) “Resume” label 8px up */
 
