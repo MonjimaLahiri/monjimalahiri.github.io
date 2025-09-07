@@ -30,14 +30,47 @@
   </header>
 
   <main id="main">
-    <section class="hero container">
-      <h1>I design & build thoughtful, accessible interfaces.</h1>
-      <p>Short value prop about the outcomes you drive. Replace this with copy from your Figma.</p>
+    <section class="hero-cream container" id="home" aria-labelledby="hero-title">
+  <div class="hero-grid">
+    <!-- Left: tilted photo with floating icons and handwritten labels -->
+    <figure class="photo-stack" aria-label="Monjima at a fireworks show">
+      <img class="photo" src="/assets/hero/hero-photo.png" alt="Monjima smiling at a fireworks show">
+
+      <a class="badge badge--linkedin" href="YOUR_LINKEDIN_URL" aria-label="LinkedIn">
+        <img src="/assets/icons/icon-linkedin.png" alt="">
+      </a>
+      <a class="badge badge--behance" href="YOUR_BEHANCE_URL" aria-label="Behance">
+        <img src="/assets/icons/icon-behance.png" alt="">
+      </a>
+      <a class="badge badge--resume" href="/assets/resume.pdf" aria-label="Resume (PDF)">
+        <img src="/assets/icons/icon-resume.png" alt="">
+      </a>
+
+      <span class="scribble scribble--linkedin">Linkedin</span>
+      <span class="scribble scribble--behance">Behance</span>
+      <span class="scribble scribble--resume">Resume</span>
+    </figure>
+
+    <!-- Right: copy -->
+    <div class="hero-copy">
+      <h1 id="hero-title" class="title">
+        Hello, my name is <span class="accent">Monjima.</span>
+      </h1>
+      <p class="tagline">
+        I’m a <span class="accent-2">UI/UX Designer</span> based in <span class="sd">San Diego 🌊🏖️</span>
+      </p>
       <div class="cta">
         <a class="btn" href="#work">See projects</a>
-        <a class="btn ghost" href="#contact">Get in touch</a>
+        <a class="btn ghost" href="/assets/resume.pdf">Download résumé</a>
       </div>
-    </section>
+    </div>
+  </div>
+
+  <div class="process-strip" aria-hidden="true">
+    Discover → Identify → Design → Test → Refine → A sweet treat!
+  </div>
+</section>
+
 
     <section id="work" class="work container">
       <h2>Selected Work</h2>
