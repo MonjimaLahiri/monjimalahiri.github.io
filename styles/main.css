@@ -87,3 +87,38 @@ img{max-width:100%;display:block}
 
 /* Motion preference */
 @media (prefers-reduced-motion:reduce){.photo-stack,.badge{transition:none}}
+
+/* --- 1) Kill tile/card effect on the hero photo --- */
+.photo-stack{ padding:0; transform:none; filter:none; }
+.photo{ border-radius:10px; box-shadow:none; }
+
+/* --- 2) Make the icons overlay the photo border (and fine-tune positions) --- */
+.badge{ position:absolute; z-index:2; width:58px; height:58px;
+  transform:translate(-50%,-50%); filter:drop-shadow(0 8px 22px rgba(0,0,0,.22)); }
+.badge img{ width:100%; height:100%; object-fit:contain; }
+
+/* tuned for your 1280×720 hero */
+.badge--linkedin{ left:6.5%; top:18%; transform:translate(-50%,-50%) rotate(-6deg); }
+.badge--behance{ right:1.5%; top:52%; transform:translate(50%,-50%) rotate(8deg); }
+.badge--resume{ left:31%; bottom:-7%; transform:translate(-50%,0) rotate(12deg); }
+
+/* scribble labels to sit closer to icons */
+.scribble{ position:absolute; z-index:3; font-size:26px; }
+.scribble--linkedin{ left:-18px; top:2%; transform:rotate(-8deg); }
+.scribble--behance{ right:-10px; top:53%; transform:rotate(-10deg); }
+.scribble--resume{ left:23%; bottom:-18%; transform:rotate(-6deg); }
+
+/* --- 3) arrows will use .arrow class (see HTML snippet below) --- */
+.arrow{ position:absolute; z-index:1; pointer-events:none; }
+
+/* --- 4) make the pink 'monjima' logo bigger in the header --- */
+.site-header .brand img{ height:46px !important; width:auto; }
+
+/* --- 5) make the dark strip full-bleed (edge to edge) --- */
+.process-strip{
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+  border-radius:0;
+}
+
