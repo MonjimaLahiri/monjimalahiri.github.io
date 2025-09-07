@@ -158,3 +158,12 @@ Behance & PDF overlap the photo border ——— */
   width:100vw; margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw);
   border-radius:0;
 }
+/* FULL-BLEED PROCESS STRIP */
+.process-strip{
+  /* break out of the .container */
+  width:100vw;
+  max-width:none;                /* override any older rule */
+  margin:32px calc(50% - 50vw) 0;
+  padding:16px 28px;
+  border-radius:0;
+}
