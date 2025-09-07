@@ -104,7 +104,7 @@ img{max-width:100%; display:block}
 @media (prefers-reduced-motion:reduce){.photo-stack,.badge{transition:none}}
 
 /* --- micro-nudges (2025-09-06) --- */
-.badge--behance{ right: calc(1% + 5px); }          /* 1) Behance ~5px left  */
-.badge--resume { bottom: calc(-8% + 3px); }        /* 2) Resume icon 3px up */
-.scribble--resume{ bottom: calc(-20% + 8px); }     /* 3) “Resume” label 8px up */
+.badge--behance{ right: calc(1% + 22px); }          /* 1) Behance ~5px left  */
+.badge--resume { bottom: calc(-8% + 18px); }        /* 2) Resume icon 3px up */
+.scribble--resume{ bottom: calc(-20% + 18px); }     /* 3) “Resume” label 8px up */
 
