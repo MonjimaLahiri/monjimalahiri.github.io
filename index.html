@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name: UI/UX, web design, and apps." />
+  <link rel="icon" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/styles/style.css" />
+  <meta property="og:title" content="Your Name — Portfolio">
+  <meta property="og:description" content="Selected work in UI/UX and web.">
+  <meta property="og:image" content="/assets/og-image.png">
+  <meta name="theme-color" content="#0f172a">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header container">
+    <div class="brand"><a href="/">Your Name</a></div>
+    <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav id="siteNav" class="site-nav" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="/assets/resume.pdf">Résumé</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <h1>I design & build thoughtful, accessible interfaces.</h1>
+      <p>Short value prop about the outcomes you drive. Replace this with copy from your Figma.</p>
+      <div class="cta">
+        <a class="btn" href="#work">See projects</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="work" class="work container">
+      <h2>Selected Work</h2>
+      <ul class="cards">
+        <li class="card">
+          <img alt="Project screenshot" src="/assets/placeholder.png">
+          <h3>Project One</h3>
+          <p>One–two sentence impact statement. What changed for users or the business.</p>
+          <div class="links">
+            <a href="#" aria-label="View live project">Live</a>
+            <a href="#" aria-label="View source code">Code</a>
+            <a href="#" aria-label="Read case study">Case study</a>
+          </div>
+        </li>
+        <li class="card">
+          <img alt="Project screenshot" src="/assets/placeholder.png">
+          <h3>Project Two</h3>
+          <p>One–two sentence impact statement. What changed for users or the business.</p>
+          <div class="links">
+            <a href="#">Live</a><a href="#">Code</a><a href="#">Case study</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About</h2>
+      <p>2–3 sentence bio. Mention your focus areas, tools, and the kinds of projects you’re open to.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@email.com">you@email.com</a></p>
+      <p>Also on <a href="https://www.linkedin.com/">LinkedIn</a> and <a href="https://github.com/">GitHub</a>.</p>
+      <!-- No-backend contact form (Formspree example). Replace with your endpoint if desired. -->
+      <!-- <form action="https://formspree.io/f/xxxxxxxx" method="POST">
+        <label>Name <input name="name" required></label>
+        <label>Email <input name="email" type="email" required></label>
+        <label>Message <textarea name="message" rows="6" required></textarea></label>
+        <button class="btn">Send</button>
+      </form> -->
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <small>© <span id="y"></span> Your Name · <a href="https://monjimalahiri.github.io">monjimalahiri.github.io</a></small>
+  </footer>
+
+  <script src="/scripts/main.js" type="module"></script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
