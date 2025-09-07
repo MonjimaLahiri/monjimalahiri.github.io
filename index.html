@@ -58,6 +58,44 @@
       <span class="scribble scribble--linkedin">Linkedin</span>
       <span class="scribble scribble--behance">Behance</span>
       <span class="scribble scribble--resume">Resume</span>
+
+      <!-- arrows -->
+<svg class="arrow arrow--linkedin" viewBox="0 0 140 90" aria-hidden="true">
+  <defs>
+    <marker id="ah-ln" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#111"/>
+    </marker>
+  </defs>
+  <!-- gentle curve from label to LinkedIn icon -->
+  <path d="M135,10 C90,20 40,20 28,58"
+        fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+        marker-end="url(#ah-ln)"/>
+</svg>
+
+<svg class="arrow arrow--behance" viewBox="0 0 120 90" aria-hidden="true">
+  <defs>
+    <marker id="ah-be" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#111"/>
+    </marker>
+  </defs>
+  <!-- curve from 'Behance' scribble toward the icon -->
+  <path d="M10,60 C40,50 70,35 110,45"
+        fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+        marker-end="url(#ah-be)"/>
+</svg>
+
+<svg class="arrow arrow--resume" viewBox="0 0 140 90" aria-hidden="true">
+  <defs>
+    <marker id="ah-rs" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#111"/>
+    </marker>
+  </defs>
+  <!-- little upward curve from 'Resume' scribble to pdf icon -->
+  <path d="M10,80 C40,60 80,60 120,52"
+        fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+        marker-end="url(#ah-rs)"/>
+</svg>
+
     </figure>
 
     <!-- Right: copy -->
