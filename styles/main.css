@@ -53,8 +53,8 @@ img{max-width:100%;display:block}
 .badge img{width:100%;height:100%;object-fit:contain}
 /* tuned for 1280×720 hero */
 .badge--linkedin{left:7%;top:16%;transform:translate(-50%,-50%) rotate(-6deg)}
-.badge--behance{right:3%;top:50%;transform:translate(50%,-50%) rotate(8deg)}
-.badge--resume{left:33%;bottom:-8%;transform:translate(-50%,0) rotate(12deg)}
+.badge--behance{right:0%;top:50%;transform:translate(50%,-50%) rotate(8deg)}
+.badge--resume{left:33%;bottom:-5%;transform:translate(-50%,0) rotate(12deg)}
 
 /* Handwritten labels */
 .scribble{position:absolute;font-family:var(--hand);font-size:26px;color:#111;text-shadow:0 0 18px rgba(255,255,255,.6)}
