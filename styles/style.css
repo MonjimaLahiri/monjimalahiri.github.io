@@ -206,3 +206,20 @@ img{max-width:100%; display:block}
 /* illustration */
 .about-art{ margin:0; }
 .about-art img{ width:min(100%,460px); height:auto; display:block; }
+
+/* bracket + note (positioned next to the chips) */
+.love-bracket{
+  position:absolute;
+  right:-78px;   /* nudge left/right */
+  top:-6px;      /* nudge up/down   */
+  width:78px;    /* controls size    */
+  height:auto;
+}
+.love-note{
+  position:absolute;
+  right:-150px;
+  top:28px;
+  font-family:var(--hand);
+  font-size:28px;
+  color:#111;
+}
