@@ -227,9 +227,9 @@ img{max-width:100%; display:block}
 /* Bracket sizing + position */
 .love-bracket{
   position:absolute;
-  height:90px;      /* ↓ smaller overall height; adjust to taste */
+  height:96px;      /* ↓ smaller overall height; adjust to taste */
   width:auto;        /* keep aspect ratio */
-  right:-34px;       /* fine-tune horizontal position */
+  right:-24px;       /* fine-tune horizontal position */
   top:-4px;          /* fine-tune vertical position */
 }
 
