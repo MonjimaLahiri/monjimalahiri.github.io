@@ -143,10 +143,54 @@
       </ul>
     </section>
 
-    <section id="about" class="about container">
-      <h2>About</h2>
-      <p>2–3 sentence bio. Mention your focus areas, tools, and the kinds of projects you’re open to.</p>
-    </section>
+    <section id="about" class="about container" aria-labelledby="about-title">
+  <div class="about-grid">
+    <!-- Left: copy -->
+    <div class="about-copy">
+      <h2 id="about-title" class="scribble-title">A little about me . . .</h2>
+
+      <p>
+        I love <mark class="hl hl-green">organizing</mark> and
+        <mark class="hl hl-green">decluttering</mark>—on screens and in life—and that tidy-up instinct, paired with my love of
+        <mark class="hl hl-blue">reading</mark>, <mark class="hl hl-blue">watching</mark>,
+        <mark class="hl hl-blue">listening</mark> to, and even <mark class="hl hl-blue">writing stories</mark>,
+        nudged me into UI/UX. I spot problems quickly and
+        <mark class="hl hl-pink">enjoy designing</mark> clear, welcoming solutions. When I’m not sketching flows or polishing pixels,
+        you’ll find me curled up with a <mark class="hl hl-purple">good book</mark> or a
+        <mark class="hl hl-purple">favorite show</mark>, collecting little moments that inspire my work.
+        <mark class="hl hl-yellow">Creativity</mark> and
+        <mark class="hl hl-yellow">problem-solving</mark> keep me moving, and I’m excited (and determined) to keep growing my career and
+        <mark class="hl hl-purple">build products</mark> that feel simple,
+        <mark class="hl hl-yellow">useful</mark>, and a little bit delightful.
+      </p>
+
+      <div class="chips-wrap">
+        <ul class="love-chips" aria-label="Things I love">
+          <li class="chip chip-green">Storytelling</li>
+          <li class="chip chip-purple">Designing</li>
+          <li class="chip chip-yellow">Problem Solving</li>
+          <li class="chip chip-teal">Decorating</li>
+          <li class="chip chip-peach">Cup of Tea</li>
+          <li class="chip chip-pink">All Dogs</li>
+        </ul>
+
+        <!-- hand-drawn bracket + note -->
+        <svg class="love-bracket" viewBox="0 0 90 140" aria-hidden="true">
+          <path d="M20,8 C60,8 60,8 70,20 M70,20 L70,120 M70,120 C60,132 60,132 20,132"
+                fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="love-note">things I <span aria-hidden="true">❤️</span> love</div>
+      </div>
+    </div>
+
+    <!-- Right: illustration -->
+    <figure class="about-art">
+      <img src="/assets/about-illustration.png"
+           alt="Playful 3D character holding a purple pen in front of UI wireframes">
+    </figure>
+  </div>
+</section>
+
 
     <section id="contact" class="contact container">
       <h2>Contact</h2>
