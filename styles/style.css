@@ -223,3 +223,24 @@ img{max-width:100%; display:block}
   font-size:28px;
   color:#111;
 }
+
+/* Bracket sizing + position */
+.love-bracket{
+  position:absolute;
+  height:110px;      /* ↓ smaller overall height; adjust to taste */
+  width:auto;        /* keep aspect ratio */
+  right:-64px;       /* fine-tune horizontal position */
+  top:-6px;          /* fine-tune vertical position */
+}
+
+/* Keep the handwritten note riding with the bracket */
+.love-note{
+  right:-138px;
+  top:18px;
+}
+
+/* Optional: scale a bit smaller on narrower screens */
+@media (max-width: 1024px){
+  .love-bracket{ height:96px; right:-56px; top:-4px; }
+  .love-note{ right:-124px; top:14px; }
+}
