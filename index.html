@@ -197,18 +197,56 @@
 
 
 
-    <section id="contact" class="contact container">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:you@email.com">you@email.com</a></p>
-      <p>Also on <a href="https://www.linkedin.com/">LinkedIn</a> and <a href="https://github.com/">GitHub</a>.</p>
-      <!-- No-backend contact form (Formspree example). Replace with your endpoint if desired. -->
-      <!-- <form action="https://formspree.io/f/xxxxxxxx" method="POST">
-        <label>Name <input name="name" required></label>
-        <label>Email <input name="email" type="email" required></label>
-        <label>Message <textarea name="message" rows="6" required></textarea></label>
-        <button class="btn">Send</button>
-      </form> -->
-    </section>
+   <section id="contact" class="contact container contact-v2" aria-labelledby="contact-title">
+
+  <!-- Full-width tools strip -->
+  <div class="tools-strip" aria-label="Tools I use">
+    <ul class="tools-list">
+      <li><img src="/assets/contact/css3.png"        srcset="/assets/contact/css3.png 1x, /assets/contact/css3.png 2x"        alt="CSS3"></li>
+      <li><img src="/assets/contact/html-5.png"       srcset="/assets/contact/html5.png 1x, /assets/contact/html5.png 2x"       alt="HTML5"></li>
+      <li><img src="/assets/contact/adobe-photoshop.png"   srcset="/assets/contact/photoshop.png 1x, /assets/contact/photoshop.png 2x" alt="Adobe Photoshop"></li>
+      <li><img src="/assets/contact/adobe-illustrator.png" srcset="/assets/contact/illustrator.png 1x, /assets/contact/illustrator.png 2x" alt="Adobe Illustrator"></li>
+      <li><img src="/assets/contact/figma.png"       srcset="/assets/contact/figma.png 1x, /assets/contact/figma.png 2x"       alt="Figma"></li>
+      <li><img src="/assets/contact/react.png"       srcset="/assets/contact/react.png 1x, /assets/contact/react.png 2x"       alt="React"></li>
+      <li><img src="/assets/contact/canva.png"       srcset="/assets/contact/canva.png 1x, /assets/contact/canva.png 2x"       alt="Canva"></li>
+      <li><img src="/assets/contact/javascript.png"  srcset="/assets/contact/javascript.png 1x, /assets/contact/javascript.png 2x" alt="JavaScript"></li>
+      <li><img src="/assets/contact/wordpress.png"   srcset="/assets/contact/wordpress.png 1x, /assets/contact/wordpress.png 2x" alt="WordPress"></li>
+      <li><img src="/assets/contact/moderncampus-cms.png" srcset="/assets/contact/moderncampus.png 1x, /assets/contact/moderncampus.png 2x" alt="Modern Campus CMS"></li>
+    </ul>
+  </div>
+
+  <!-- Two-column contact area -->
+  <div class="contact-grid">
+    <div class="contact-copy">
+      <h2 id="contact-title" class="script-title">Let’s Connect</h2>
+
+      <p class="lead">
+        Shoot out an email at
+        <a class="hl hl-yellow" href="mailto:monjimalahiri@gmail.com">monjimalahiri@gmail.com</a>
+        or my student email
+        <a class="hl hl-purple" href="mailto:mlahiri6694@sdsu.edu">mlahiri6694@sdsu.edu</a>.
+      </p>
+
+      <div class="socials">
+        <a class="social" href="https://www.behance.net/monjimalahiri" target="_blank" rel="noopener" aria-label="Behance">
+          <img src="/assets/contact/behance-logo.png" srcset="/assets/contact/behance.png 1x, /assets/contact/behance.png 2x" alt="">
+        </a>
+        <a class="social" href="https://www.linkedin.com/in/monjima-lahiri/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <img src="/assets/contact/linkedin.png" srcset="/assets/contact/linkedin-logo.png 1x, /assets/contact/linkedin.png 2x" alt="">
+        </a>
+      </div>
+    </div>
+
+    <figure class="contact-figure" aria-hidden="true">
+      <img class="contact-illu"
+           src="/assets/contact/contact-illustration.png"
+           srcset="/assets/contact/contact-illustration.png 1x, /assets/contact/contact-illustration.png 2x"
+           alt="" role="presentation">
+    </figure>
+  </div>
+
+</section>
+
   </main>
 
   <footer class="site-footer container">
