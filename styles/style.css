@@ -87,7 +87,7 @@ img{ max-width:100%; display:block }
   position:absolute; z-index:6; font-family:var(--hand); font-size:26px; color:#111
 }
 .scribble--linkedin{ left:-12px; top:-3% }
-.scribble--behance {  transform: rotate(90deg); transform-origin: left top; right: -18px; top: 48%;  }
+.scribble--behance {  transform: rotate(90deg); transform-origin: left top; right: -56px; top: 48%;  }
 .scribble--resume  { left:22%;  bottom:-20% }
 
 /* Small hand-drawn arrows (inside figure) */
