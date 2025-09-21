@@ -184,10 +184,10 @@ img{ max-width:100%; display:block }
 .love-bracket{
   position:absolute;
   height:96px; width:auto;
-  right:60px; top:-4px;
+  right:100px; top:-4px;
 }
 .love-note{
-  position:absolute; right:-100px; top:18px;
+  position:absolute; right:-50px; top:18px;
   font-family:var(--hand); font-size:28px; color:#111;
 }
 @media (max-width:1024px){
