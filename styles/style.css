@@ -179,7 +179,22 @@ img{ max-width:100%; display:block }
 .chip-teal  { background:#d9f4f1 }
 .chip-peach { background:#ffe2cf }
 .chip-pink  { background:#ffd9ea }
+/* chips row: exactly 3 per row on desktop */
+.love-chips{
+  display: grid;
+  grid-template-columns: repeat(3, max-content); /* 3 items per row */
+  gap: 14px 16px;                                 /* row/column gaps */
+  align-items: center;
+  justify-content: start;
+}
 
+/* responsive: 2 per row on tablets, 1 per row on phones (optional) */
+@media (max-width: 900px){
+  .love-chips{ grid-template-columns: repeat(2, max-content); }
+}
+@media (max-width: 560px){
+  .love-chips{ grid-template-columns: 1fr; } /* one per row */
+}
 /* bracket + note (final sizing/position) */
 .love-bracket{
   position:absolute;
