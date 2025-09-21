@@ -86,15 +86,15 @@ img{ max-width:100%; display:block }
 .scribble{
   position:absolute; z-index:6; font-family:var(--hand); font-size:26px; color:#111
 }
-.scribble--linkedin{ left:-12px; top:1% }
-.scribble--behance { right:-6px; top:52% }
+.scribble--linkedin{ left:-12px; top:-3% }
+.scribble--behance {  transform: rotate(90deg); transform-origin: left top; right: -18px; top: 48%;  }
 .scribble--resume  { left:22%;  bottom:-20% }
 
 /* Small hand-drawn arrows (inside figure) */
 .arrow{ position:absolute; z-index:4; pointer-events:none }
-.arrow--linkedin{ left:-10px; top:-26px; width:120px; height:74px }
+.arrow--linkedin{ left:-22px; top:-12px; width:120px; height:74px }
 .arrow--behance { right:-12px; top:48%;  width:120px; height:70px }
-.arrow--resume  { left:21%;  bottom:-42px; width:130px; height:80px }
+.arrow--resume  { left:24%;  bottom:-28px; width:86px; height:50px }
 
 /* Right-side text */
 .title{ font-size:clamp(36px,5.2vw,72px); line-height:1.04; font-weight:300; margin:0 }
